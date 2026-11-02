@@ -10,5 +10,23 @@ Summative Portfolio of evidence
 • Convenience: Loyalty cards and gift cards
 ## Timeline and milestones
 • Week 1 :Planning • Week 2: Design phase • Week 3: Development phase • Week 4: Testing and Revisit • Week 5: Launch and Handover
+## PART 2 Details
+This is a nail salon website, it showcases our work. First was basic HTML, part 2 has CSS added for visual styles, layout structure, stylesheet control and for the website to be responsive.
+## Site map
+Images folder CSS folder js_assest folder index file contact file about file enquiries file services file
+## Change log
+We added colours for the website to look good Navigation for clients to move around Visual style- colours and hover effects Responsive design Modern layout.
+## References
+1. Industry Research Booksy. (2025). Salon Booking Trends 2025. Retrieved from https://booksy.com Fresha. (2025). Online Booking for Beauty Businesses. Retrieved from https://www.fresha.com
+
+2. Technical & Hosting Xneelo. (2026). Web Hosting Plans South Africa. Retrieved from https://www.xneelo.co.za WordPress. (2026). WordPress.org Documentation. Retrieved from https://wordpress.org
+
+3. Design & UX Nielsen Norman Group. (2025). Mobile Usability Guidelines. Retrieved from https://www.nngroup.com Google. (2025). Google SEO Starter Guide. Retrieved from https://developers.google.com/search
+
+4. Target Audience & Marketing Statista. (2025). Beauty and Personal Care Market in South Africa. Retrieved from https://www.statista.com Meta. (2025). Instagram Marketing for Small Businesses. Retrieved from https://business.instagram.com
+
+
+
+
 
 
