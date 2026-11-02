@@ -29,7 +29,23 @@ This is a nail website that showcases our work. First was basic HTML, part 2 has
 ## Site map
 Images folder CSS folder js_assest folder index file contact file about file enquiries file services file style css
 ## Change log
-We added JavaScript enhancement for functionality, dynamic content, Search Engine Optimazation (SEO), form functionality and validation
+We added JavaScript enhancement for functionality, dynamic content, Search Engine Optimazation (SEO), form functionality and validation.
+## Reference List
+# JavaScript Enhancement & Dynamic Content
+1. MDN Web Docs. (2024). JavaScript - Dynamic client-side scripting. Mozilla Developer Network. https://developer.mozilla.org/en-US/docs/Learn/JavaScript
+2. Flanagan, D. (2020). JavaScript: The Definitive Guide (7th ed.). O'Reilly Media.
+3. ECMA International. (2023). ECMAScript® 2024 Language Specification (ECMA-262). https://tc39.es/ecma262/
+# Search Engine Optimization (SEO)
+4. Google Search Central. (2024). Search Engine Optimization (SEO) Starter Guide. Google Developers. https://developers.google.com/search/docs/fundamentals/seo-starter-guide
+5. Enge, E., Spencer, S., & Stricchiola, J. (2022). The Art of SEO: Mastering Search Engine Optimization (4th ed.). O'Reilly Media.
+6. W3C. (2023). HTML: Best practices for Search Engine Optimization and accessibility. World Wide Web Consortium. https://www.w3.org/
+# Form Functionality and Validation
+7. MDN Web Docs. (2024). Client-side form validation. Mozilla Developer Network. https://developer.mozilla.org/en-US/docs/Learn/Forms/Form_validation
+8. W3Schools. (2024). JavaScript Form Validation. https://www.w3schools.com/js/js_validation.asp
+9. Nielsen, J., & Pernice, K. (2021). Form Design and Usability Guidelines. Nielsen Norman Group. https://www.nngroup.com/articles/web-form-design/
+# General Web Development Standards
+10. W3C. (2023). Web Content Accessibility Guidelines (WCAG) 2.2. https://www.w3.org/TR/WCAG22/
+11. Duckett, J. (2014). JavaScript and jQuery: Interactive Front-End Web Development. Wiley.
 
 
 
