@@ -29,6 +29,7 @@ This is a nail website that showcases our work. First was basic HTML, part 2 has
 ## Site map
 Images folder CSS folder js_assest folder index file contact file about file enquiries file services file style css
 ## Change log
+We added JavaScript enhancement for functionality, dynamic content, Search Engine Optimazation (SEO), form functionality and validation
 
 
 
