@@ -9,7 +9,7 @@ Summative Portfolio of evidence
 • Homepage, first impression + Book Now call to action. • Services + pricing, clear menu: acrylics, gel, pedicures, kiddies, add-ons. No "DM for price" • Online gallery: before and after photos + video reels, builds trust instantly. • About us: Your story, team photos, hygiene standards. People buy from people. • Reviews + testimonials: Google reviews + clients photos embedded. Functionality • Easy booking • Showcase • Trust: reviews, hygiene, and location with google maps • Growth: SEO, promotions and Instagram reels.
 • Convenience: Loyalty cards and gift cards
 ## Timeline and milestones
-• Week 1 :Planning • Week 2: Design phase • Week 3: Development phase • Week 4: Testing and Revisit • Week 5: Launch and Handover
+• Week 1 :Planning • Week 2: Design phase • Week 3: Development phase • Week 4: Testing and Revisit • Week 5: Launch and Handover.
 ## PART 2 Details
 This is a nail salon website, it showcases our work. First was basic HTML, part 2 has CSS added for visual styles, layout structure, stylesheet control and for the website to be responsive.
 ## Site map
@@ -23,7 +23,12 @@ We added colours for the website to look good Navigation for clients to move aro
 
 3. Design & UX Nielsen Norman Group. (2025). Mobile Usability Guidelines. Retrieved from https://www.nngroup.com Google. (2025). Google SEO Starter Guide. Retrieved from https://developers.google.com/search
 
-4. Target Audience & Marketing Statista. (2025). Beauty and Personal Care Market in South Africa. Retrieved from https://www.statista.com Meta. (2025). Instagram Marketing for Small Businesses. Retrieved from https://business.instagram.com
+4. Target Audience & Marketing Statista. (2025). Beauty and Personal Care Market in South Africa. Retrieved from https://www.statista.com Meta. (2025). Instagram Marketing for Small Businesses. Retrieved from https://business.instagram.com.
+## Part 3 Details
+This is a nail website that showcases our work. First was basic HTML, part 2 has CSS added for visual styles, layout structure, stylesheet control and for the website to be responsive. Part has JavaScript, SEO best practices, forms done with HTML code and JavaScript validation forms.
+## Site map
+Images folder CSS folder js_assest folder index file contact file about file enquiries file services file style css
+## Change log
 
 
 
