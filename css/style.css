@@ -1,0 +1,1508 @@
+/* =========================================================
+   CLAWED BY KAMO
+   Main Stylesheet
+
+   Website colours:
+   - Dusty Pink
+   - Soft Pink
+   - White
+
+   This stylesheet is used by:
+   - index.html
+   - about.html
+   - services.html
+   - enquiries.html
+   - contacts.html
+   ========================================================= */
+
+
+/* =========================================================
+   1. GLOBAL RESET
+   ========================================================= */
+
+/* Removes default browser spacing from all elements */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Makes scrolling smoother */
+html {
+    scroll-behavior: smooth;
+}
+
+
+/* Main website body */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+
+    background-color: #fff8fa;
+
+    color: #4a3a3f;
+
+    line-height: 1.6;
+}
+
+
+/* =========================================================
+   2. GENERAL TEXT
+   ========================================================= */
+
+h1 {
+    color: #b56576;
+
+    font-size: 2.7rem;
+
+    margin-bottom: 15px;
+}
+
+
+h2 {
+    color: #c06c84;
+
+    font-size: 2rem;
+
+    margin-bottom: 15px;
+}
+
+
+h3 {
+    color: #9f5267;
+
+    margin-bottom: 10px;
+}
+
+
+p {
+    margin-bottom: 15px;
+}
+
+
+/* Small heading displayed above some main headings */
+.small-heading {
+    color: #b56576;
+
+    font-size: 0.85rem;
+
+    font-weight: bold;
+
+    letter-spacing: 2px;
+
+    text-transform: uppercase;
+
+    margin-bottom: 8px;
+}
+
+
+/* =========================================================
+   3. HEADER
+   ========================================================= */
+
+header {
+    background-color: #ffffff;
+
+    text-align: center;
+
+    padding: 20px;
+
+    border-bottom: 3px solid #d8a7b1;
+
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.08);
+}
+
+
+/* Main logo */
+.logo {
+    width: 130px;
+
+    height: 130px;
+
+    object-fit: cover;
+
+    border-radius: 50%;
+
+    border: 4px solid #d8a7b1;
+
+    padding: 4px;
+
+    background-color: #ffffff;
+}
+
+/* =========================================================
+   4. NAVIGATION
+   ========================================================= */
+
+nav {
+    margin-top: 20px;
+}
+
+
+nav ul {
+    list-style: none;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    flex-wrap: wrap;
+
+    gap: 12px;
+}
+
+
+nav ul li a {
+    display: block;
+
+    text-decoration: none;
+
+    color: #ffffff;
+
+    background-color: #d88c9a;
+
+    padding: 10px 22px;
+
+    border-radius: 25px;
+
+    font-weight: bold;
+
+    transition: 0.3s ease;
+}
+
+
+/* Navigation hover effect */
+nav ul li a:hover {
+    background-color: #b56576;
+
+    transform: translateY(-2px);
+}
+
+
+/* Highlights the page the visitor is currently viewing */
+nav ul li a.active {
+    background-color: #9f5267;
+}
+
+
+/* =========================================================
+   5. MAIN CONTENT
+   ========================================================= */
+
+main {
+    width: 92%;
+
+    max-width: 1200px;
+
+    margin: 40px auto;
+}
+
+
+/* =========================================================
+   6. GENERAL SECTIONS
+   ========================================================= */
+
+section {
+    background-color: #ffffff;
+
+    padding: 35px;
+
+    margin-bottom: 35px;
+
+    border-radius: 18px;
+
+    box-shadow: 0 5px 18px rgba(0, 0, 0, 0.07);
+}
+
+
+/* Centres section headings */
+.section-heading {
+    text-align: center;
+
+    max-width: 750px;
+
+    margin: 0 auto 30px;
+}
+
+
+/* =========================================================
+   7. HOME PAGE - HERO
+   ========================================================= */
+
+.hero {
+    min-height: 500px;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    text-align: center;
+
+    background-color: #fcecef;
+
+    border: 1px solid #f0d5db;
+}
+
+
+.hero-content {
+    max-width: 750px;
+
+    margin: auto;
+}
+
+
+.hero h1 {
+    font-size: 3.5rem;
+
+    margin-bottom: 10px;
+}
+
+
+.hero h2 {
+    font-size: 1.8rem;
+
+    margin-bottom: 20px;
+}
+
+
+.hero p {
+    font-size: 1.05rem;
+}
+
+
+/* =========================================================
+   8. MAIN BUTTON
+   ========================================================= */
+
+.main-button {
+    display: inline-block;
+
+    text-decoration: none;
+
+    background-color: #d88c9a;
+
+    color: #ffffff;
+
+    padding: 12px 28px;
+
+    border-radius: 30px;
+
+    font-weight: bold;
+
+    margin-top: 10px;
+
+    transition: 0.3s ease;
+}
+
+
+.main-button:hover {
+    background-color: #b56576;
+
+    transform: translateY(-3px);
+
+    box-shadow: 0 5px 12px rgba(0, 0, 0, 0.12);
+}
+
+
+/* Centres buttons when required */
+.center-button {
+    text-align: center;
+
+    margin-top: 30px;
+}
+
+
+/* =========================================================
+   9. HOME INTRODUCTION
+   ========================================================= */
+
+.home-introduction {
+    text-align: center;
+
+    max-width: 900px;
+
+    margin-left: auto;
+
+    margin-right: auto;
+}
+
+
+/* =========================================================
+   10. HOME FEATURED SERVICES
+   ========================================================= */
+
+.feature-grid {
+    display: grid;
+
+    grid-template-columns: repeat(4, 1fr);
+
+    gap: 22px;
+}
+
+
+/* Individual featured service */
+.feature-card {
+    background-color: #fff7f9;
+
+    border-radius: 16px;
+
+    overflow: hidden;
+
+    border: 1px solid #f0d5db;
+
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+
+    transition: 0.3s ease;
+}
+
+
+/* Feature card hover */
+.feature-card:hover {
+    transform: translateY(-5px);
+
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+}
+
+
+/*
+   Controls the size of the feature pictures
+   on the Home page.
+*/
+.feature-card img {
+    width: 100%;
+
+    height: 230px;
+
+    object-fit: cover;
+
+    display: block;
+}
+
+
+.feature-content {
+    padding: 20px;
+}
+
+
+.feature-content h3 {
+    margin-bottom: 10px;
+}
+
+
+.feature-content a {
+    color: #b56576;
+
+    text-decoration: none;
+
+    font-weight: bold;
+}
+
+
+.feature-content a:hover {
+    text-decoration: underline;
+}
+
+
+/* =========================================================
+   11. HOME PAGE - WHY CHOOSE US
+   ========================================================= */
+
+.why-us {
+    background-color: #fcecef;
+}
+
+
+.why-grid {
+    display: grid;
+
+    grid-template-columns: repeat(4, 1fr);
+
+    gap: 20px;
+}
+
+
+.why-card {
+    background-color: #ffffff;
+
+    padding: 25px;
+
+    border-radius: 15px;
+
+    text-align: center;
+
+    border: 1px solid #f0d5db;
+
+    transition: 0.3s ease;
+}
+
+
+.why-card:hover {
+    transform: translateY(-4px);
+
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.08);
+}
+
+
+/* =========================================================
+   12. ABOUT PAGE
+   ========================================================= */
+
+.about-intro {
+    text-align: center;
+
+    background-color: #fcecef;
+}
+
+
+.about-intro p {
+    max-width: 800px;
+
+    margin-left: auto;
+
+    margin-right: auto;
+}
+
+
+.about-section {
+    text-align: center;
+}
+
+
+.about-section p {
+    max-width: 850px;
+
+    margin-left: auto;
+
+    margin-right: auto;
+
+    margin-bottom: 15px;
+}
+
+
+/* Mission and Vision */
+.mission-vision {
+    display: grid;
+
+    grid-template-columns: repeat(2, 1fr);
+
+    gap: 25px;
+
+    background-color: transparent;
+
+    padding: 0;
+
+    box-shadow: none;
+}
+
+
+.about-box {
+    background-color: #ffffff;
+
+    padding: 35px;
+
+    border-radius: 18px;
+
+    border: 1px solid #f0d5db;
+
+    text-align: center;
+
+    box-shadow: 0 5px 18px rgba(0, 0, 0, 0.07);
+}
+
+
+/* About values */
+.values-grid {
+    display: grid;
+
+    grid-template-columns: repeat(3, 1fr);
+
+    gap: 20px;
+}
+
+
+.value-card {
+    background-color: #fff1f4;
+
+    padding: 25px;
+
+    border-radius: 15px;
+
+    text-align: center;
+
+    border: 1px solid #f0d5db;
+
+    transition: 0.3s ease;
+}
+
+
+.value-card:hover {
+    transform: translateY(-3px);
+
+    background-color: #fce4e9;
+}
+
+
+/* =========================================================
+   13. SERVICES PAGE INTRODUCTION
+   ========================================================= */
+
+.services-intro {
+    text-align: center;
+
+    background-color: #fcecef;
+}
+
+
+.services-intro p {
+    max-width: 800px;
+
+    margin-left: auto;
+
+    margin-right: auto;
+}
+
+
+/* =========================================================
+   14. SERVICES GRID
+   ========================================================= */
+
+.services-grid {
+    display: grid;
+
+    grid-template-columns: repeat(4, 1fr);
+
+    gap: 22px;
+}
+
+
+/* =========================================================
+   15. SERVICE CARDS
+   ========================================================= */
+
+.service-card {
+    background-color: #fff7f9;
+
+    border-radius: 16px;
+
+    overflow: hidden;
+
+    text-align: center;
+
+    border: 1px solid #f0d5db;
+
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+
+    transition: 0.3s ease;
+}
+
+
+.service-card:hover {
+    transform: translateY(-5px);
+
+    box-shadow: 0 8px 18px rgba(0, 0, 0, 0.12);
+}
+
+
+/*
+   This prevents the nail pictures
+   from becoming too large.
+*/
+.service-card img {
+    width: 100%;
+
+    height: 220px;
+
+    object-fit: cover;
+
+    display: block;
+}
+
+
+.service-content {
+    padding: 20px;
+}
+
+
+.service-content h3 {
+    margin-bottom: 10px;
+}
+
+
+.service-content p {
+    margin-bottom: 12px;
+}
+
+
+/* Price text */
+.price {
+    color: #b56576;
+
+    font-size: 1.2rem;
+
+    font-weight: bold;
+}
+
+
+/* =========================================================
+   16. SERVICE BOOK BUTTONS
+   ========================================================= */
+
+.book-button {
+    display: inline-block;
+
+    text-decoration: none;
+
+    background-color: #d88c9a;
+
+    color: #ffffff;
+
+    padding: 10px 22px;
+
+    border-radius: 25px;
+
+    font-weight: bold;
+
+    margin-top: 5px;
+
+    transition: 0.3s ease;
+}
+
+
+.book-button:hover {
+    background-color: #b56576;
+
+    transform: translateY(-2px);
+}
+
+
+/* =========================================================
+   17. NAIL SHAPES
+   ========================================================= */
+
+.nail-shapes {
+    display: grid;
+
+    grid-template-columns: repeat(3, 1fr);
+
+    gap: 18px;
+}
+
+
+.shape-card {
+    background-color: #fff1f4;
+
+    padding: 25px;
+
+    border-radius: 14px;
+
+    text-align: center;
+
+    border: 1px solid #f0d5db;
+
+    transition: 0.3s ease;
+}
+
+
+.shape-card:hover {
+    transform: translateY(-3px);
+
+    background-color: #fce4e9;
+}
+
+
+/* =========================================================
+   18. PAGE INTRODUCTIONS
+   Used by Enquiries and Contacts
+   ========================================================= */
+
+.page-intro {
+    text-align: center;
+
+    background-color: #fcecef;
+}
+
+
+.page-intro p {
+    max-width: 800px;
+
+    margin-left: auto;
+
+    margin-right: auto;
+}
+
+
+/* =========================================================
+   19. ENQUIRY CARDS
+   ========================================================= */
+
+.enquiry-options {
+    display: grid;
+
+    grid-template-columns: repeat(3, 1fr);
+
+    gap: 20px;
+}
+
+
+.enquiry-card {
+    background-color: #fff1f4;
+
+    padding: 25px;
+
+    text-align: center;
+
+    border-radius: 15px;
+
+    border: 1px solid #f0d5db;
+
+    transition: 0.3s ease;
+}
+
+
+.enquiry-card:hover {
+    transform: translateY(-4px);
+
+    background-color: #fce4e9;
+}
+
+
+/* =========================================================
+   20. FORMS
+   ========================================================= */
+
+.form-section {
+    max-width: 850px;
+
+    margin-left: auto;
+
+    margin-right: auto;
+}
+
+
+form {
+    background-color: #fff5f7;
+
+    padding: 30px;
+
+    border-radius: 16px;
+
+    border: 1px solid #f0d5db;
+}
+
+
+/* Controls spacing between form fields */
+.form-group {
+    margin-bottom: 20px;
+}
+
+
+/* Form labels */
+label {
+    display: block;
+
+    color: #8f5361;
+
+    font-weight: bold;
+
+    margin-bottom: 6px;
+}
+
+
+/* Form inputs */
+input,
+select,
+textarea {
+    width: 100%;
+
+    padding: 13px;
+
+    border: 2px solid #e6bdc6;
+
+    border-radius: 8px;
+
+    background-color: #ffffff;
+
+    color: #4a3a3f;
+
+    font-family: Arial, Helvetica, sans-serif;
+
+    font-size: 1rem;
+
+    outline: none;
+
+    transition: 0.3s ease;
+}
+
+
+/* Input focus effect */
+input:focus,
+select:focus,
+textarea:focus {
+    border-color: #d88c9a;
+
+    box-shadow: 0 0 0 3px rgba(216, 140, 154, 0.15);
+}
+
+
+/* Allows the message box to resize vertically */
+textarea {
+    resize: vertical;
+}
+
+
+/* =========================================================
+   21. FORM BUTTONS
+   ========================================================= */
+
+button {
+    background-color: #d88c9a;
+
+    color: #ffffff;
+
+    border: none;
+
+    padding: 12px 28px;
+
+    border-radius: 25px;
+
+    font-size: 1rem;
+
+    font-weight: bold;
+
+    cursor: pointer;
+
+    transition: 0.3s ease;
+}
+
+
+button:hover {
+    background-color: #b56576;
+
+    transform: translateY(-2px);
+}
+
+
+
+/* =====================================================
+   CLAWED BY KAMO - CONTACT PAGE
+   ===================================================== */
+
+/* Contact hero */
+.contact-hero {
+    padding: 85px 20px;
+    text-align: center;
+    background: #fff0f6;
+}
+
+.contact-hero h1 {
+    color: #a64d79;
+    font-size: clamp(30px, 5vw, 46px);
+    margin: 15px 0;
+}
+
+.contact-hero > p:last-child {
+    max-width: 650px;
+    margin: 0 auto;
+    line-height: 1.8;
+}
+
+/* Contact information */
+.contact-information {
+    padding: 75px 20px;
+    text-align: center;
+}
+
+.contact-info-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 25px;
+    max-width: 1100px;
+    margin: 35px auto 0;
+}
+
+.contact-info-card {
+    background: #fff7fa;
+    border-radius: 16px;
+    padding: 30px 22px;
+    box-shadow: 0 5px 18px rgba(0, 0, 0, 0.07);
+}
+
+.contact-info-card h3 {
+    color: #a64d79;
+    margin-bottom: 15px;
+}
+
+.contact-info-card p,
+.contact-info-card address {
+    line-height: 1.8;
+    font-style: normal;
+    margin-bottom: 15px;
+}
+
+.contact-info-card a {
+    color: #a64d79;
+    font-weight: 600;
+    overflow-wrap: anywhere;
+}
+
+/* Google Maps section */
+.location-section {
+    padding: 75px 20px;
+    background: #fff7fa;
+    text-align: center;
+}
+
+.location-section .section-heading {
+    max-width: 700px;
+    margin: 0 auto 30px;
+}
+
+.location-section h2 {
+    color: #a64d79;
+    margin-bottom: 15px;
+}
+
+.location-section p {
+    line-height: 1.8;
+}
+
+.map-container {
+    max-width: 1100px;
+    margin: 30px auto;
+    border-radius: 18px;
+    overflow: hidden;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.12);
+}
+
+.map-container iframe {
+    display: block;
+    width: 100%;
+    height: 420px;
+    border: 0;
+}
+
+.location-section .center-button {
+    margin-top: 30px;
+}
+
+/* Contact form */
+.contact-form-section {
+    padding: 75px 20px;
+    background: #ffffff;
+}
+
+.contact-form-section .section-heading {
+    text-align: center;
+    max-width: 700px;
+    margin: 0 auto 35px;
+}
+
+.contact-form-container {
+    max-width: 750px;
+    margin: 0 auto;
+    background: #fff7fa;
+    padding: 35px;
+    border-radius: 18px;
+    box-shadow: 0 6px 24px rgba(0, 0, 0, 0.08);
+}
+
+.contact-form-container .form-group {
+    margin-bottom: 22px;
+}
+
+.contact-form-container label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 600;
+    color: #333;
+}
+
+.contact-form-container input,
+.contact-form-container textarea {
+    width: 100%;
+    padding: 13px 15px;
+    border: 1px solid #d9b8c9;
+    border-radius: 9px;
+    font: inherit;
+    background: white;
+    color: #333;
+    box-sizing: border-box;
+}
+
+.contact-form-container textarea {
+    resize: vertical;
+    min-height: 140px;
+}
+
+.contact-form-container input:focus,
+.contact-form-container textarea:focus {
+    outline: 2px solid #a64d79;
+    outline-offset: 2px;
+}
+
+.contact-form-container button.main-button {
+    border: none;
+    cursor: pointer;
+    font: inherit;
+    font-weight: 600;
+}
+
+.form-note {
+    margin-top: 18px;
+    font-size: 13px;
+    line-height: 1.6;
+    color: #666;
+}
+
+/* Tablet */
+@media (max-width: 992px) {
+    .contact-info-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+    .contact-hero,
+    .contact-information,
+    .location-section,
+    .contact-form-section {
+        padding: 45px 15px;
+    }
+
+    .contact-info-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .map-container iframe {
+        height: 310px;
+    }
+
+    .contact-form-container {
+        padding: 22px 16px;
+    }
+
+    .contact-info-card {
+        padding: 25px 18px;
+    }
+}
+
+
+/* =========================================================
+   23. SOCIAL MEDIA
+   ========================================================= */
+
+.social-section {
+    text-align: center;
+}
+
+
+.social-links {
+    display: flex;
+
+    justify-content: center;
+
+    flex-wrap: wrap;
+
+    gap: 15px;
+}
+
+
+.social-links a {
+    text-decoration: none;
+
+    background-color: #d88c9a;
+
+    color: #ffffff;
+
+    padding: 10px 24px;
+
+    border-radius: 25px;
+
+    font-weight: bold;
+
+    transition: 0.3s ease;
+}
+
+
+.social-links a:hover {
+    background-color: #b56576;
+
+    transform: translateY(-2px);
+}
+
+
+/* =========================================================
+   24. TABLES
+   ========================================================= */
+
+table {
+    width: 100%;
+
+    border-collapse: collapse;
+
+    margin-top: 20px;
+}
+
+
+th,
+td {
+    padding: 14px;
+
+    border: 1px solid #efd1d8;
+
+    text-align: center;
+}
+
+
+th {
+    background-color: #d88c9a;
+
+    color: #ffffff;
+}
+
+
+td {
+    background-color: #fff8fa;
+}
+
+
+tr:nth-child(even) td {
+    background-color: #fcecef;
+}
+
+
+/* =========================================================
+   25. CALL TO ACTION
+   ========================================================= */
+
+.call-to-action {
+    text-align: center;
+
+    background-color: #fcecef;
+
+    border: 1px solid #f0d5db;
+}
+
+
+.call-to-action p {
+    max-width: 700px;
+
+    margin-left: auto;
+
+    margin-right: auto;
+
+    margin-bottom: 15px;
+}
+
+
+/* =========================================================
+   26. FOOTER
+   ========================================================= */
+
+footer {
+    background-color: #d8a7b1;
+
+    color: #ffffff;
+
+    text-align: center;
+
+    padding: 35px 20px;
+
+    margin-top: 40px;
+}
+
+
+footer h3 {
+    color: #ffffff;
+
+    font-size: 1.5rem;
+
+    margin-bottom: 8px;
+}
+
+
+footer p {
+    margin-bottom: 5px;
+}
+
+
+/* =========================================================
+   27. TABLET RESPONSIVE DESIGN
+   Screens smaller than 992px
+   ========================================================= */
+
+@media (max-width: 992px) {
+
+    /* Two featured services per row */
+    .feature-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+
+    /* Two service cards per row */
+    .services-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+
+    /* Two reasons per row */
+    .why-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+
+    /* Two nail shapes per row */
+    .nail-shapes {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+
+    /* About values */
+    .values-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+
+    /* Contact cards */
+    .contact-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+
+    /* Enquiry cards */
+    .enquiry-options {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+}
+
+
+/* =========================================================
+   28. MOBILE RESPONSIVE DESIGN
+   Screens smaller than 600px
+   ========================================================= */
+
+@media (max-width: 600px) {
+
+    /* -------------------------
+       Header
+       ------------------------- */
+
+    header {
+        padding: 18px 15px;
+    }
+
+
+    .logo {
+        width: 105px;
+
+        height: 105px;
+    }
+
+
+    .text-logo {
+        font-size: 1.7rem;
+    }
+
+
+    /* -------------------------
+       Navigation
+       ------------------------- */
+
+    nav ul {
+        flex-direction: column;
+
+        gap: 8px;
+    }
+
+
+    nav ul li {
+        width: 100%;
+    }
+
+
+    nav ul li a {
+        width: 100%;
+
+        padding: 11px 15px;
+    }
+
+
+    /* -------------------------
+       Main content
+       ------------------------- */
+
+    main {
+        width: 95%;
+
+        margin-top: 25px;
+    }
+
+
+    section {
+        padding: 22px;
+
+        margin-bottom: 25px;
+    }
+
+
+    /* -------------------------
+       Headings
+       ------------------------- */
+
+    h1 {
+        font-size: 2rem;
+    }
+
+
+    h2 {
+        font-size: 1.6rem;
+    }
+
+
+    /* -------------------------
+       Hero
+       ------------------------- */
+
+    .hero {
+        min-height: 400px;
+    }
+
+
+    .hero h1 {
+        font-size: 2.4rem;
+    }
+
+
+    .hero h2 {
+        font-size: 1.4rem;
+    }
+
+
+    /* -------------------------
+       Home features
+       ------------------------- */
+
+    .feature-grid {
+        grid-template-columns: 1fr;
+    }
+
+
+    .feature-card img {
+        height: 250px;
+    }
+
+
+    /* -------------------------
+       Why choose us
+       ------------------------- */
+
+    .why-grid {
+        grid-template-columns: 1fr;
+    }
+
+
+    /* -------------------------
+       About page
+       ------------------------- */
+
+    .mission-vision {
+        grid-template-columns: 1fr;
+    }
+
+
+    .values-grid {
+        grid-template-columns: 1fr;
+    }
+
+
+    /* -------------------------
+       Services
+       ------------------------- */
+
+    .services-grid {
+        grid-template-columns: 1fr;
+    }
+
+
+    .service-card img {
+        height: 250px;
+    }
+
+
+    /* -------------------------
+       Nail shapes
+       ------------------------- */
+
+    .nail-shapes {
+        grid-template-columns: 1fr;
+    }
+
+
+    /* -------------------------
+       Enquiries
+       ------------------------- */
+
+    .enquiry-options {
+        grid-template-columns: 1fr;
+    }
+
+
+    /* -------------------------
+       Contacts
+       ------------------------- */
+
+    .contact-grid {
+        grid-template-columns: 1fr;
+    }
+
+
+    /* -------------------------
+       Forms
+       ------------------------- */
+
+    form {
+        padding: 20px;
+    }
+
+
+    /* -------------------------
+       Tables
+       ------------------------- */
+
+    th,
+    td {
+        padding: 10px;
+
+        font-size: 0.9rem;
+    }
+
+
+    /* -------------------------
+       Social links
+       ------------------------- */
+
+    .social-links {
+        flex-direction: column;
+    }
+
+
+    .social-links a {
+        width: 100%;
+    }
+
+
+    /* -------------------------
+       Buttons
+       ------------------------- */
+
+    .main-button {
+        padding: 11px 22px;
+    }
+
+}
